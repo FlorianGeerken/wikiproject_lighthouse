@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup # library to parse HTML documents
 import numpy as np
 import geopandas as gpd
 import folium
+import branca
 
 #load page with country table
 wikiurl = "https://www.wikidata.org/wiki/Wikidata:WikiProject_Lighthouses/lists/lighthouses_by_country"
